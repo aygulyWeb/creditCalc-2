@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>credits calc</title>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+	<div class="wrapper">
+		<h1 class="title">Рассчитать кредит</h1>
+		<form action="#" class="input-block">
+			<ul class="form-table">
+				<li>
+					<label for="#">Сумма кредита</label>
+					<input type="text" class="input__summa">
+				</li>
+				<li>
+					<label for="#">Срок кредита</label>
+					<input type="text" class="input__period">
+				</li>
+				<li>
+					<label for="#">Процентная ставка в год</label>
+					<input type="text" class="input__rate">
+				</li>
+				<li>
+					<label for="#">Вид расчёта</label>
+					<select name="type" id="type">
+						<option value="type-1">Обычный</option>
+						<option value="type-2">Аннуитет</option>
+					</select>
+				</li>
+			</ul>
+		</form>
+		<button class="btn-calc">Рассчитать</button>
+		<h1 class="title">Результаты расчёта</h1>
+
+		<table>
+
+			<thead>
+				<tr>
+					<th>Сумма кредита</th>
+					<th>% ставка</th>
+					<th>Ежемесячный платеж</th>
+					<!-- <th>Переоплата по кредиту</th> -->
+					<th>Общая выплата</th>
+				</tr>
+
+			</thead>
+			<tbody>
+
+			</tbody>
+		</table>
+
+	</div>
+
+
+
+	<script src="script.js"></script>
+
+</body>
+
+</html>
